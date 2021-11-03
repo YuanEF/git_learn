@@ -1,4 +1,4 @@
 git in a version control system
 git is free software
 git is ok
-no add
+git is software distributed under GPL
