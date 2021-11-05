@@ -4,4 +4,8 @@ git commit -m
 git status
 git log (--pretty=oneline)
 git reset --hard HEAD^
-git reset --hard ?????
+git reset --hard <file>
+git reflog
+git checkout -- <file>
+git reset HEAD <file>
+git rm <file>
