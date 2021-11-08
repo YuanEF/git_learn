@@ -3,19 +3,31 @@ git add
 git commit -m
 git status
 git log (--pretty=oneline)
+
 git reset --hard HEAD^
 git reset --hard <file>
 git reflog
 git checkout -- <file>
 git reset HEAD <file>
+
 git rm <file>
+
 git remote add origin git@server-name:path/repo-name.git 
 git push -u origin main
 git remote -v
 git remote rm <file>
 git clone git@server-name:path/repo-name.git
+
 git switch -c <banch name>
 git switch main
 git branch
 git merge <branch name>
 git branch -d <branch name>
+git merge --no-ff -m "with no-ff" <branch name>
+
+git stash
+git stash list
+git stash pop
+git stash apply stash@{}
+git stash drop
+git cherry-pick <commit id>
