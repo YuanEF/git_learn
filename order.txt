@@ -23,6 +23,7 @@ git switch main
 git branch
 git merge <branch name>
 git branch -d <branch name>
+git branch -D <branch name>
 git merge --no-ff -m "with no-ff" <branch name>
 
 git stash
@@ -31,3 +32,5 @@ git stash pop
 git stash apply stash@{}
 git stash drop
 git cherry-pick <commit id>
+
+
