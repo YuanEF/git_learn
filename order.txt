@@ -17,6 +17,8 @@ git push -u origin main
 git remote -v
 git remote rm <file>
 git clone git@server-name:path/repo-name.git
+git pull
+git push origin --tags
 
 git switch -c <banch name>
 git switch main
@@ -32,5 +34,12 @@ git stash pop
 git stash apply stash@{}
 git stash drop
 git cherry-pick <commit id>
+
+git tag <tagname>
+git tag <tagname> -m "***"
+git tag -d <tagname>
+git tag <tagname> <commmit ID>
+git tag -a <tagname> -m "commit" <commit ID>
+git show <tagname>
 
 
